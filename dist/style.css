@@ -2,6 +2,18 @@
     box-sizing: border-box;
 }
 
+:root {
+    --site-clr: #253551; 
+    --highlight: hsl(46, 52%, 66%);
+
+    /* Another color scheme option
+    --site-clr: #1e2046; 
+    --highlight: hsl(47, 44%, 41%); 
+    
+    --site-clr: #523b35; 
+    --highlight: hsl(47, 42%, 49%);*/
+}
+
 .img {
     max-width: 100%;
 }
@@ -10,7 +22,7 @@ body {
     margin: 0;
     padding: 0;
     color: #fff;
-    background-color: #253551;
+    background-color: var(--site-clr);
 
     display: flex;
     flex-direction: column;
@@ -95,7 +107,7 @@ nav {
     font-size: 1.15rem;
     text-transform: uppercase;
     color: #fff;
-    background-color: hsl(46, 52%, 66%);
+    background-color: var(--highlight);
     border-radius: 5px;
     border: none;
 }
