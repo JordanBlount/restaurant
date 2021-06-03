@@ -64,18 +64,19 @@ nav {
     /* background-image: url("res/IMG_0229.jpg");
     background-position: center;
     background-size: cover; */
-    /* max-width: 1140px; */
     width: 100%;
-    min-height: 90vh;
+    /* min-height: 90vh; */
     margin: 0 auto;
 
     
     display: flex;
     justify-content: center;
-    align-items: center;
+    /* align-items: center; */
+
+    /* outline: yellow solid 2px; */
 }
 
-.content::before {
+/* .content::before {
     content: '';
     position: absolute;
     top: 0px;
@@ -83,8 +84,56 @@ nav {
     bottom: 0px;
     left: 0px;
     background-color: rgba(0, 0, 0, 0.35);
+} */
+
+/* 
+
+ABOUT SECTION
+
+*/
+.about {
+    width: 90%;
+}
+/* 
+
+MENU SECTION
+
+*/
+.menu {
+    width: 90%;
+    max-width: 1140px;
+    padding: 2em 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 }
 
+.menu-item__header {
+    display: flex;
+    /* justify-content: space-between; */
+}
+
+.menu-item {
+    /* border-bottom: var(--highlight) solid px; */
+    margin: 1em 0;
+}
+
+.dish-name,
+.dish-price {
+   margin: 0;
+}
+
+.dish-price {
+    color: var(--highlight);
+    margin-left: 2em;
+}
+
+/* 
+
+HOME SECTION
+
+*/
 .cta {
     /* This fixes the text still being dark. I guess this puts it on top
     of the pseudo element. I need to look up how positioning works
@@ -96,6 +145,8 @@ nav {
     It was squeezed because the "container" is as big as this element, 
     and not the size of the "content" div.  */
     padding: 2em 2em;
+
+    /* This fixes the text */
     position: relative;
     width: 90%;
     display: flex;
@@ -149,6 +200,10 @@ footer {
     .nav-item {
         margin-left: 2.5em;
     }
+
+    .about {
+        width: 80%;
+    }
 }
 
 @media (min-width: 1140px) {
@@ -156,5 +211,13 @@ footer {
     nav {
         padding-left: 0;
         padding-right: 0;
+    }
+
+    .menu {
+        justify-content: space-between;
+    }
+
+    .about {
+        width: 60%;
     }
 }
