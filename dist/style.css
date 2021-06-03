@@ -61,12 +61,12 @@ nav {
 .content {
     position: relative;
     flex-grow: 1;
-    background-image: url("res/IMG_0229.jpg");
+    /* background-image: url("res/IMG_0229.jpg");
     background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    max-width: 1140px;
+    background-size: cover; */
+    /* max-width: 1140px; */
     width: 100%;
+    min-height: 90vh;
     margin: 0 auto;
 
     
@@ -148,10 +148,6 @@ footer {
 
     .nav-item {
         margin-left: 2.5em;
-    }
-
-    .content {
-        max-width: 1140px;
     }
 }
 
