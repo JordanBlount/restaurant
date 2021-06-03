@@ -1,0 +1,7 @@
+const loadMenu = () => {
+    
+};
+
+export {
+    loadMenu
+}

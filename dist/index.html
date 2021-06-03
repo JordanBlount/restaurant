@@ -6,13 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The Cheesecake Specialist</title>
     <link rel="stylesheet" href="style.css">       
-    <script src="main.js"></script>
+    <script defer src="main.js"></script>
 </head>
 <body>
     <header>
         <nav>
             <!-- TODO: Make it so that this opens the home tab -->
-            <a href="#">
+            <a class="logo-link" href="#">
                 <svg class="logo" viewBox="0 0 114 121" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M1 98.2149L54.6527 119V111.625L1 91.1748V98.2149Z" fill="#383838" />
                     <path d="M54.6527 119L113 49.2693V42.5645L54.6527 111.625V119Z" fill="#383838" />
@@ -22,9 +22,9 @@
                 </svg>
             </a>
             <ul class="nav-list">
-                <li class="nav-item">Home</li>
-                <li class="nav-item">Menu</li>
-                <li class="nav-item">Contact</li>
+                <li class="nav-item selected" data-index="0">Home</li>
+                <li class="nav-item" data-index="1">Menu</li>
+                <li class="nav-item" data-index="2">Contact</li>
             </ul>
         </nav>
     </header>
