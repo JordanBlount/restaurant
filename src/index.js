@@ -1,7 +1,7 @@
-import * as nav from './nav.js';
+import * as tabs from './components/tabs.js';
 
 setup();
 
 function setup() {
-    nav.setupNav();
+    tabs.setupTabs();
 }
