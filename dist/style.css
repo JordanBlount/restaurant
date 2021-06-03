@@ -91,6 +91,14 @@ nav {
     background-color: rgba(0, 0, 0, 0.35);
 }
 
+.no-bg {
+    background-image: none;
+}
+
+.no-fade::before {
+    content: none;
+}
+
 /* 
 
 ABOUT SECTION
