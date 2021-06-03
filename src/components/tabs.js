@@ -44,8 +44,8 @@ const switchTabs = (tab) => {
             break;
 
         case 2: 
-            //clearPage();
-            console.log("About");
+            clearPage();
+            about.buildAbout();
             break;
 
         default:

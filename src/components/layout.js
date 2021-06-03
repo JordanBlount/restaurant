@@ -37,6 +37,7 @@ const removeHome = () => {
     content.classList.add('no-bg');
 }
 
+// Not even used
 const addHome = () => {
     let content = document.querySelector('.content');
     content.classList.remove('no-fade');
