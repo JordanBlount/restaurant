@@ -61,22 +61,20 @@ nav {
 .content {
     position: relative;
     flex-grow: 1;
-    /* background-image: url("res/IMG_0229.jpg");
+    background-image: url("res/IMG_0229.jpg");
     background-position: center;
-    background-size: cover; */
+    background-size: cover;
     width: 100%;
-    /* min-height: 90vh; */
     margin: 0 auto;
 
     
     display: flex;
     justify-content: center;
-    /* align-items: center; */
 
     /* outline: yellow solid 2px; */
 }
 
-/* .content::before {
+.content::before {
     content: '';
     position: absolute;
     top: 0px;
@@ -84,7 +82,7 @@ nav {
     bottom: 0px;
     left: 0px;
     background-color: rgba(0, 0, 0, 0.35);
-} */
+}
 
 /* 
 
@@ -183,7 +181,12 @@ footer {
 }
 
 .second-logo {
-    width: 225px;
+    /* width: 225px; */
+    background-image: url('res/logo-white.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 80%;
+    height: 85px;
 }
 
 .copyright {
