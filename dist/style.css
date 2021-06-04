@@ -149,7 +149,7 @@ HOME SECTION
     /* This fixes the text still being dark. I guess this puts it on top
     of the pseudo element. I need to look up how positioning works
     exactly  */
-    outline: crimson solid 2px;
+    /* outline: crimson solid 2px; */
 
     /* Added some padding here so that the layout can breath
     on mobile. I almost always forget to test the landscape rotation.
